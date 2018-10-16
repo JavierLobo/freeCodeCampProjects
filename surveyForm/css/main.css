@@ -2,11 +2,29 @@
 
 }
 
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box; 
+}
+
 /* Larger than mobile */
-@media (min-width: 400px) {}
+@media (min-width: 400px) {
+    .container {
+        width: 85%;
+        padding: 0;
+    }
+}
 
 /* Larger than phablet (also point when grid becomes active) */
-@media (min-width: 550px) {}
+@media (min-width: 550px) {
+    .container {
+        width: 80%;
+    }
+}
 
 /* Larger than tablet */
 @media (min-width: 750px) {}
@@ -16,3 +34,9 @@
 
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {}
+
+.container:after {
+    content: "";
+    display: table;
+    clear: both;
+}
