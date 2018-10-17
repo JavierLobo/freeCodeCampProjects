@@ -2,6 +2,10 @@
 
 }
 
+body {
+    background-color: hsl(180, 100%, 95%);
+}
+
 .container {
     position: relative;
     width: 100%;
