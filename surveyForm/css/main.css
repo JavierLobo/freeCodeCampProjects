@@ -11,6 +11,23 @@
     box-sizing: border-box; 
 }
 
+.row-container {
+    display: flex;
+    flex-direction: column;
+    background-color: yellow;
+    padding: 1.5px;
+}
+
+.row-label {
+    flex-basis: 50%;
+    background-color: green;
+}
+
+.row-right {
+    flex-basis: 50%;
+    background-color: cyan;
+}
+
 /* Larger than mobile */
 @media (min-width: 400px) {
     .container {
@@ -27,7 +44,12 @@
 }
 
 /* Larger than tablet */
-@media (min-width: 750px) {}
+@media (min-width: 750px) {
+
+    .row-container {
+        flex-direction: row;
+    }
+}
 
 /* Larger than desktop */
 @media (min-width: 1000px) {}
