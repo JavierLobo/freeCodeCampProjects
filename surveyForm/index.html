@@ -32,5 +32,143 @@
 
 <body>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <div class="container">
+        <header>
+            <h1 id="title">Survey Form for freeCodeCamp</h1>
+            <p id="description">Let us know how we can improve freeCodeCamp</p>
+        </header>
+
+        <main class="container">
+            <p id="description">* Required fields</p>
+            <form id="survey-form" action="">
+                <section class="row-container">
+                    <div class="row-label">
+                        <label for="name" id="name-label">* Name</label>
+                    </div>
+                    <div class="row-right">
+                        <input type="text" name="" id="name" required placeholder="Enter your name">
+                    </div>
+                </section>
+
+                <section class="row-container">
+                    <div class="row-label">
+                        <label for="email" id="email-label">* Email</label>
+                    </div>
+                    <div class="row-right">
+                        <input type="email" name="" id="email" required placeholder="Enter your Email">
+                    </div>
+                </section>
+
+                <section class="row-container">
+                    <div class="row-label">
+                        <label for="number" id="number-label">* Age</label>
+                    </div>
+                    <div class="row-right">
+                        <input type="number" name="" id="number" min="1" max="125" required placeholder="Enter your age">
+                    </div>
+                </section>
+
+                <section class="row-container">
+                    <div class="row-label">
+                        <label for="dropdown" id="">Which option best describes your current role?</label>
+                    </div>
+                    <div class="row-right">
+                        <select name="" id="dropdown">
+                            <option value="" selected>Select an option</option>
+                            <option value="Student">Student</option>
+                            <option value="Full Time Job">Full Time Job</option>
+                            <option value="Full Time Learner">Full Time Learner</option>
+                            <option value="Prefer not to say">Prefer not to say</option>
+                            <option value="Other">Other</option>                    
+                        </select>
+                    </div>
+                </section>
+
+                <section class="row-container">
+                    <div class="row-label">
+                        <label for="" id="">Things that should be improved in the future</label>
+                        <label for="" id="">(Check all that apply)</label>
+                    </div>
+                    <div class="row-right">
+                        <ul>
+                            <li>
+                                <label for="radio-button-1"><input type="radio" id="radio-button-1" name="radio-button" value="1"> Definitely</label>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <label for="radio-button-2"><input type="radio" id="radio-button-2" name="radio-button" value="2"> Maybe</label>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <label for="radio-button-3"><input type="radio" id="radio-button-3" name="radio-button" value="3"> Not sure</label>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+
+                <section class="row-container">
+                    <div class="row-label">
+                        <label for="dropdown" id="">Which option best describes your current role?</label>
+                    </div>
+                    <div class="row-right">
+                        <select name="" id="dropdown">
+                            <option value="" selected>Select an option</option>
+                            <option value="1">Challenges</option>
+                            <option value="2">Projects c</option>
+                            <option value="3">Community</option>
+                            <option value="4">Open Source</option>
+                        </select>
+                    </div>
+                </section>
+
+                <section class="row-container">
+                    <div class="row-label">
+                        <label for="" id="">Things that should be improved in the future (Check all that apply):</label>
+                    </div>
+                    <div class="row-right">
+                        <label for="">
+                            <input type="checkbox" name="radio-button" value="1"> Front-end Projects</label>
+                        <label for="">
+                            <input type="checkbox" name="radio-button" value="2"> Back-end Projects</label>
+                        <label for="">
+                            <input type="checkbox" name="radio-button" value="3"> Data Visualization</label>
+                        <label for="">
+                            <input type="checkbox" name="radio-button" value="4"> Challenges</label>
+                        <label for="">
+                            <input type="checkbox" name="radio-button" value="5"> Open Source Community</label>
+                        <label for="">
+                            <input type="checkbox" name="radio-button" value="6"> Gitter help rooms</label>
+                        <label for="">
+                            <input type="checkbox" name="radio-button" value="7"> Videos</label>
+                        <label for="">
+                            <input type="checkbox" name="radio-button" value="8"> City Meetups</label>
+                        <label for="">
+                            <input type="checkbox" name="radio-button" value="9"> Wiki</label>
+                        <label for="">
+                            <input type="checkbox" name="radio-button" value="10"> Videos</label>
+                        <label for="">
+                            <input type="checkbox" name="radio-button" value="11"> Additional Courses</label>
+                    </div>
+                </section>
+
+                <section class="row-container">
+                    <div class="row-label">
+                        <label for="text-area">Any Comments or Suggestions?</label>
+                    </div>
+                    <div class="row-right">
+                        <textarea name="" id="text-area" cols="30" rows="10" placeholder="Enter your comment here..."></textarea>
+                    </div>
+                </section>
+
+                <button id="submit" type="submit" class="button button-primary">Submit</button>
+            </form>
+        </main>
+
+        <footer>
+
+        </footer>
+    </div>
 </body>
 </html>
