@@ -6,6 +6,14 @@ body {
     background-color: hsl(180, 100%, 95%);
 }
 
+h1 {
+    text-align: center;
+}
+
+#description {
+    text-align: center;
+}
+
 .container {
     position: relative;
     width: 100%;
@@ -18,18 +26,57 @@ body {
 .row-container {
     display: flex;
     flex-direction: column;
-    background-color: yellow;
     padding: 1.5px;
 }
 
 .row-label {
     flex-basis: 50%;
-    background-color: green;
 }
 
 .row-right {
     flex-basis: 50%;
-    background-color: cyan;
+}
+
+.row-label, .row-right {
+    padding: 5px;
+}
+
+label {
+  display: block;
+  margin-bottom: .5rem;
+  font-weight: 600;
+}
+
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="text"],
+input[type="tel"],
+input[type="url"],
+input[type="password"],
+textarea,
+select {
+    width: 100%;
+}
+
+textarea {
+    resize: vertical;
+}
+
+ul {
+    display: inline;
+}
+
+ul li {
+    list-style: none;
+}
+
+.center {
+    justify-content: center;
+}
+
+.area-button {
+    padding: 15px !important;
 }
 
 /* Larger than mobile */
@@ -52,6 +99,10 @@ body {
 
     .row-container {
         flex-direction: row;
+    }
+
+    .row-label {
+        text-align: right;
     }
 }
 
