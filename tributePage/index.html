@@ -1,26 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Basic Page Needs
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta charset="utf-8">
+    <title>Build a Survey Form</title>
+    <meta name="author" content="@javixu_lobo">
+    <meta name="description" content="Survey Form project for FreeCodeCamp.">
+    <link rel="author" type="text/plain" href="humans.txt" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    
+    <!-- Mobile Specific Metas
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- FONT
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+    
+    <!-- CSS
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    
+    <!-- Favicon
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="icon" type="image/png" href="img/favicon.png">
+
 </head>
 <body>
-    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-
-    <header>
-        <h1>Dr. Norman Borlaug</h1>
-        <h5>The man who saved a billion lives</h5>
-        <div>
-            <img src="https://c2.staticflickr.com/4/3689/10613180113_fdf7bcd316_b.jpg" class="" alt="">
-            <div>
-                <p></p>
+    <main id="main">
+        <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+        <header>
+            <h1 id="title">Dr. Norman Borlaug</h1>
+            <h5>The man who saved a billion lives</h5>
+            <div id="img-div">
+                <img id="image" src="https://c2.staticflickr.com/4/3689/10613180113_fdf7bcd316_b.jpg" class="" alt="">
+                <div id="img-caption">
+                    <p>Dr. Norman Borlaug, second from left, trains biologists in Mexico on how to increase wheat yields - part of his life-long war on hunger.</p>
+                </div>
             </div>
-        </div>
-    </header>
-    <main>
-        <section>
+        </header>
+        <section id="tribute-info">
             <h3>Here's a time line of Dr. Borlaug's life:</h3>
             <article>
                 <ul>
@@ -105,15 +126,16 @@
                 </ul>
             </article>
         </section>
+        
+        <footer>
+            <section>
+                <blockquote>
+                        "Borlaug's life and achievement are testimony to the far-reaching contribution that one man's towering intellect, persistence and scientific vision can make to human peace and progress."
+                        <address>-- Indian Prime Minister Manmohan Singh</address>
+                </blockquote>
+                <p>If you have time, you should read more about this incredible human being on his <a id="tribute-link" target="_blank" href="https://en.wikipedia.org/wiki/Norman_Borlaug">Wikipedia entry</a>.</p>
+            </section>
+        </footer>
     </main>
-    <footer>
-        <section>
-            <blockquote>
-                    "Borlaug's life and achievement are testimony to the far-reaching contribution that one man's towering intellect, persistence and scientific vision can make to human peace and progress."
-                    <address>-- Indian Prime Minister Manmohan Singh</address>
-            </blockquote>
-            <p>If you have time, you should read more about this incredible human being on his <a href="https://en.wikipedia.org/wiki/Norman_Borlaug">Wikipedia entry</a>.</p>
-        </section>
-    </footer>
 </body>
 </html>
