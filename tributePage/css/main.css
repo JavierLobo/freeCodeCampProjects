@@ -1,3 +1,15 @@
+#main {
+    margin: 1rem;
+    background-color: hsl(192, 15%, 94%);
+    color: hsl(184, 5%, 27%);
+}
+
+#img-div img {
+    display: block;
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+}
 
 /* Larger than mobile */
 @media (min-width: 400px) {}
