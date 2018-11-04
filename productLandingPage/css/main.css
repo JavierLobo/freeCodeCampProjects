@@ -21,11 +21,6 @@ h2 {
     text-align: center;
 }
 
-a {
-    color: #000;
-    text-decoration: none;
-}
-
 body {
     background-color: var(--bgc, #eee);
     font-family: 'Lato', sans-serif;
@@ -80,7 +75,8 @@ ul, ol {
 }
 
 .nav-link {
-
+    color: #000;
+    text-decoration: none;
 }
 
 /*
