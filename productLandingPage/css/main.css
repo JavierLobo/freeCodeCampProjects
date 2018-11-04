@@ -287,6 +287,9 @@ footer a:hover {
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {}
 
+/* Extra Larger than Desktop HD */
+@media (min-width: 1600px) {}
+
 .container:after {
   content: "";
   display: table;
